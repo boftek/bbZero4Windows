@@ -1,0 +1,50 @@
+BB.Button.Text:                         QL
+BB.Button.R.Command:                    "C:\Program Files\Programmer's Notepad\pn.exe"
+BB.Button.L.Command:                    "C:\Program Files\DOSBox-0.72\dosbox.exe" -conf "C:\Program Files\DOSBox-0.72\dosbox.conf"
+BB.Button.M.Command:                    "C:\msys\1.0\msys.bat"
+Inscription.Text:                       BLACKBOX
+!Clock.Tooltip: %a %#d %b
+Clock.Tooltip:                          %#I:%M%p %A %B, %d, %Y (%j/365)
+Clock.Format:                           %#I:%M%p %a, %b %d, %Y
+Placement.Config:                       0145632
+Width.Percent:                          66
+Custom.Height:                          28
+Window.Alpha:                           0
+Position.X:                             245
+Position.Y:                             883
+Font.Size:                              12
+Task.Icon.Size:                         8
+Task.Icon.Sat:                          0
+Task.Icon.Hue:                          70
+Task.MaxWidth:                          0
+Tray.Icon.Size:                         8
+Tray.Icon.Sat:                          0
+Tray.Icon.Hue:                          70
+Tooltip.MaxWidth:                       250
+Tooltip.Distance:                       0
+Tooltip.Delay:                          0
+Tooltip.Alpha:                          255
+Tooltip.Shadow:                         0
+.DT:                                    2
+.HT:                                    0
+.PL:                                    5
+.SM:                                    29890048
+.SC:                                    1699556230
+.OC:                                    826880
+.PC:                                    9992
+.R:                                     -2080243712
+.M:                                     108265472
+.L:                                     5242881
+.RD:                                    0
+.MD:                                    0
+.LD:                                    0
+.EC:                                    660541565
+WindowLabel.R.Command:                  default
+WindowLabel.L.Command:                  default
+WindowLabel.M.Command:                  default
+toolbar.button.shadowColor:             #000000
+toolbar.button.shadowX:                 2
+toolbar.button.shadowY:                 2
+toolbar.button.pressed.shadowColor:     #0000ff
+toolbar.button.pressed.shadowX:         2
+toolbar.button.pressed.shadowY:         2

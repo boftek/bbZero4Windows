@@ -1,0 +1,94 @@
+# ------------------------------------------------------
+# BlackboxBar+ 1.17 - configuration
+
+# Lines starting with # or ! are ignored
+
+# ---------------------
+# The items on the bar:
+# This builds a toolbar with tasks and tray. You can
+# change the order of items or uncomment some of the
+# currently disabled (!) items)
+
+!BlackboxBar.item: WindowLabel
+!BlackboxBar.item: WorkspaceButtonL
+!BlackboxBar.item: WorkspaceButtonR
+!BlackboxBar.item: WorkspaceLabel
+BlackboxBar.item: Tasks
+!BlackboxBar.item: CurrentOnlyButton
+BlackboxBar.item: Tray
+!BlackboxBar.item: WindowButtonL
+!BlackboxBar.item: WindowButtonR
+BlackboxBar.item: Clock
+
+!BlackboxBar.item: TaskStyleButton
+!BlackboxBar.item: NewLine
+!BlackboxBar.item: Space
+
+# ----------------
+# General Settings
+BlackboxBar.placement: TopCenter
+BlackboxBar.position.x: 192
+BlackboxBar.position.y: 0
+BlackboxBar.widthPercent: 100
+BlackboxBar.useSlit: false
+BlackboxBar.pluginToggle: true
+BlackboxBar.OnTop: true
+BlackboxBar.AutoHide: false
+BlackboxBar.autoRaise: true
+BlackboxBar.snapToEdge: 20
+BlackboxBar.arrowBullets: false
+BlackboxBar.alpha.enabled: false
+BlackboxBar.alpha.value: 255
+BlackboxBar.transparent: false
+
+# ---------
+# Task Tabs
+BlackboxBar.tasks.style: 0
+BlackboxBar.tasks.reverse: true
+BlackboxBar.tasks.current: false
+BlackboxBar.tasks.sysmenu: true
+BlackboxBar.tasks.drawBorder: false
+BlackboxBar.tasks.maxWidth: 100
+
+------------
+# Icons
+BlackboxBar.icon.saturation: 0
+BlackboxBar.icon.hue: 100
+BlackboxBar.icon.size: 16
+
+# ------------
+# Clock-Format
+BlackboxBar.strftimeFormat: %a %d %H:%M
+BlackboxBar.strftimeTipsFormat: %Y-%m-%d %a
+
+# ---------------
+# Special Options
+BlackboxBar.balloonTips: true
+BlackboxBar.autoFullscreenHide: true
+BlackboxBar.setDesktopMargin: true
+BlackboxBar.sendToSwitchTo: false
+
+# -------------------------
+# hidden icons (auto saved)
+BlackboxBar.tray.hidden.count: 13
+BlackboxBar.tray.hidden.1: "RTXVoiceWindowClass",1
+BlackboxBar.tray.hidden.2: "SystemTray_Main",1226
+BlackboxBar.tray.hidden.3: "NotificationIconWindowClass",1051
+BlackboxBar.tray.hidden.4: "VanguardTrayWindowClass",0
+BlackboxBar.tray.hidden.5: "PlexMediaServer_TrayIconClass",103
+BlackboxBar.tray.hidden.6: "QTrayIconMessageWindowClass",0
+BlackboxBar.tray.hidden.7: "WindowsForms10.Window.0.app.0.30495d1_r12_ad1",1
+BlackboxBar.tray.hidden.8: "ytWindow",39907712
+BlackboxBar.tray.hidden.9: "WPFTaskbarIcon_97aba872-ef3b-4636-b600-3322a49e6bb3",0
+BlackboxBar.tray.hidden.10: "WPFTaskbarIcon_97aba872-ef3b-4636-b600-3322a49e6bb3",0
+BlackboxBar.tray.hidden.11: "WorkerW",123
+BlackboxBar.tray.hidden.12: "Chrome_WidgetWin_0",0
+BlackboxBar.tray.hidden.13: "WindowsForms10.Window.0.app.0.11c7a8c_r3_ad1",1
+BlackboxBar.minHeight: 1
+BlackboxBar.clock.tips: true
+BlackboxBar.clock.Btn1Click: 
+BlackboxBar.clock.Btn2Click: 
+BlackboxBar.clock.Btn3Click: 
+BlackboxBar.clock.Btn4Click: 
+BlackboxBar.clock.Btn5Click: 
+BlackboxBar.clock.Btn6Click: 

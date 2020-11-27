@@ -1,0 +1,50 @@
+!---- BBInterface 0.9.62 ----
+@BBInterface Plugin SetPluginProperty SnapWindows true
+@BBInterface Plugin SetPluginProperty SnapDistance 7
+@BBInterface Plugin SetPluginProperty SnapPadding 2
+@BBInterface Plugin SetPluginProperty IconSaturation 255
+@BBInterface Plugin SetPluginProperty IconHue 0
+@BBInterface Plugin SetPluginProperty ClickRaise false
+@BBInterface Plugin SetPluginProperty DeskDropCommand ""
+@BBInterface Plugin SetPluginProperty SuppressErrors true
+@BBInterface Plugin SetPluginProperty ZeroControlsAllowed false
+
+!---- ElapsedAndTotal ----
+@BBInterface Control Create Label ElapsedAndTotal
+@BBInterface Control SetWindowProperty ElapsedAndTotal X 10
+@BBInterface Control SetWindowProperty ElapsedAndTotal Y 10
+@BBInterface Control SetWindowProperty ElapsedAndTotal Width 128
+@BBInterface Control SetWindowProperty ElapsedAndTotal Height 16
+@BBInterface Control SetWindowProperty ElapsedAndTotal Border true
+@BBInterface Control SetWindowProperty ElapsedAndTotal Style "Toolbar"
+@BBInterface Control SetWindowProperty ElapsedAndTotal IsVisible true
+@BBInterface Control SetWindowProperty ElapsedAndTotal IsToggledWithPlugins true
+@BBInterface Control SetWindowProperty ElapsedAndTotal IsOnAllWorkspaces true
+@BBInterface Control SetWindowProperty ElapsedAndTotal IsOnTop true
+@BBInterface Control SetWindowProperty ElapsedAndTotal AutoHide false
+@BBInterface Control SetWindowProperty ElapsedAndTotal IsSlitted false
+@BBInterface Control SetWindowProperty ElapsedAndTotal IsTransparent false
+@BBInterface Control SetWindowProperty ElapsedAndTotal Transparency 100
+@BBInterface Control SetControlProperty ElapsedAndTotal HAlign "Center"
+@BBInterface Control SetControlProperty ElapsedAndTotal VAlign "Center"
+@BBInterface Control SetAgent ElapsedAndTotal Caption StaticText "00:00 / 00:00"
+
+!---- ElapsedTime ----
+@BBInterface Control Create Label ElapsedTime
+@BBInterface Control SetWindowProperty ElapsedTime X 10
+@BBInterface Control SetWindowProperty ElapsedTime Y 30
+@BBInterface Control SetWindowProperty ElapsedTime Width 128
+@BBInterface Control SetWindowProperty ElapsedTime Height 16
+@BBInterface Control SetWindowProperty ElapsedTime Border true
+@BBInterface Control SetWindowProperty ElapsedTime Style "Toolbar"
+@BBInterface Control SetWindowProperty ElapsedTime IsVisible true
+@BBInterface Control SetWindowProperty ElapsedTime IsToggledWithPlugins true
+@BBInterface Control SetWindowProperty ElapsedTime IsOnAllWorkspaces true
+@BBInterface Control SetWindowProperty ElapsedTime IsOnTop true
+@BBInterface Control SetWindowProperty ElapsedTime AutoHide false
+@BBInterface Control SetWindowProperty ElapsedTime IsSlitted false
+@BBInterface Control SetWindowProperty ElapsedTime IsTransparent false
+@BBInterface Control SetWindowProperty ElapsedTime Transparency 100
+@BBInterface Control SetControlProperty ElapsedTime HAlign "Center"
+@BBInterface Control SetControlProperty ElapsedTime VAlign "Center"
+@BBInterface Control SetAgent ElapsedTime Caption StaticText "00:00"

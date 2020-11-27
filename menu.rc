@@ -1,0 +1,36 @@
+
+# --------------------------------------
+# bbZero menu.rc config by palacinka
+# ---------------------------------------
+
+
+[begin] (palacinka)
+    [submenu] (Programs)
+        [exec] (Files) {"C:\Users\palacinka\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools\File Explorer.lnk"}
+        [exec] (Edge) {"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"}
+        [exec] (VS Code) {"C:\Program Files\Microsoft VS Code\Code.exe"}
+        [exec] (Teams) {"C:\Users\palacinka\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Microsoft Teams.lnk"}
+        [exec] (Discord) {"C:\Users\palacinka\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Discord Inc\Discord.lnk"}
+        [exec] (Epic) {"C:\Program Files (x86)\Epic Games\Launcher\Engine\Binaries\Win64\EpicGamesLauncher.exe"}
+        [end]
+    [submenu] (Games)
+        [exec] (Rocket League OL) {"C:\Program Files\Epic Games\rocketleague\Binaries\Win64\RocketLeague.exe"}
+        [exec] (Minecraft) {"C:\Program Files (x86)\Minecraft Launcher\MinecraftLauncher.exe"}
+        [end]
+    [submenu] (System)
+        [path] (Controls) {CONTROLS}
+        [exec] (Command	Prompt)	{cmd.exe}
+        [exec]  (Task Manager) {"C:\Windows\System32\taskmgr.exe"}
+        [run]  (Run) {"C:\Windows\System32\taskmgr.exe"}
+        [exec] (System Configuration) {"C:\Windows\System32\msconfig.exe"}
+        [exec] (Registry Editor) {"C:\Windows\regedit.exe"}
+        [end]
+    [nop]   
+    [submenu] (Off)
+        [lockworkstation] (Lock)
+        [logoff] (Logoff)
+        [suspend] (Standby)
+        [reboot] (Reboot)
+        [shutdown] (Shutdown)
+        [end]
+[end]
