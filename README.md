@@ -17,4 +17,6 @@ this means - unlike most other shells - themes don't have to be custom created f
 I did some minor configurations to make it look as simple as possible.\
 
 I wanted to include a screenshot of how would it look like with the configuration applied but sady I switched to MacOs.\
-Maybe I revisit the configuration sometime in future using Bootcamp or just a VM.
+Maybe I revisit the configuration sometime in future using Bootcamp or just a VM.\
+
+If you want to use this repo just clone it.
