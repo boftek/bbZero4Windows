@@ -9,7 +9,7 @@ Blackbox for Windows is based stylistically on the [Blackbox](http://blackboxwm.
 
 The foundation of Blackbox for Windows is full cross-platform support
 
-A theme (or style as it is called in *nix) can be taken directly from *nix and used in Windows with little or no difference in appearance
+A theme (or style as it is called in *nix can be taken directly from *nix and used in Windows with little or no difference in appearance
 this means - unlike most other shells - themes don't have to be custom created for the shell
 
 ### Configuration
